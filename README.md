@@ -2,7 +2,7 @@
 
 ## About
 
-It is a basic code editor that contains html, css and javascript files available to code. It has a editor window where you can code live and a live view window which hot reloads the code that you are typing in the editor.
+It is  an online code editor using React that supports  html, css and javascript . A window called live view section to show the rendered HTML website.
 
 ## Features
 
