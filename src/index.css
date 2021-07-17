@@ -1,0 +1,66 @@
+/* *{
+  border :1px solid blue !important;
+} */
+body{
+  margin: 0;
+  
+}
+
+.horizontal {
+  display: flex;
+  justify-content: flex-start;
+  flex-direction: row;
+}
+.pane1 {
+  background-color: hsl(225,6%,25%);
+  width: 60vw;
+}
+.pane2 {
+  height : 100vh;
+  display : flex;
+  width: 75%;
+  flex-direction: column;
+  
+}
+.pane2 h1{
+  background-color: hsl(225,6%,25%);
+  color: white;
+  margin-top: 0;
+  text-align: center;
+}
+.editor-container{
+  flex-grow: 1;
+  align-content: center;
+  flex-basis: auto;
+  display: flex;
+  flex-direction: column;
+  padding: .5rem;
+  
+  
+  background-color: hsl(225,6%,25%);
+}
+
+.editor-title {
+  display: flex;
+  justify-content: space-between;
+  
+  background-color: hsl(225,6%,13%);
+  color: white;
+  padding: .5rem .5rem .5rem 1rem;
+  border-top-right-radius: .5rem;
+  border-top-left-radius: .5rem;
+  
+}
+
+.code-mirror-wrapper{
+  
+  border-bottom-left-radius: .5rem;
+  border-bottom-right-radius: .5rem;
+  overflow: hidden;
+}
+.CodeMirror{
+  height: 80vh !important;
+}
+.react-tabs__tab{
+  color: white;
+}
